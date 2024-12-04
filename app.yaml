@@ -1,0 +1,9 @@
+runtime: nodejs20
+handlers:
+- url: /
+  static_files: public/index.html
+  upload: public/index.html
+- url: /static
+  static_dir: public
+- url: /.*
+  script: auto

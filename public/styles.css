@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #auth-section, #actions {
+    text-align: center;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #file-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .file-item {
+    width: 350px;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+  
+  .file-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .file-preview {
+    max-width: 100%;
+    max-height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .folder-icon {
+    width: 50px;
+    height: 50px;
+    background-color: #f0ad4e;
+    border-radius: 50%;
+    margin: 10px 0;
+  }
+  
+  .file-icon {
+    width: 50px;
+    height: 50px;
+    background-color: #5bc0de;
+    border-radius: 50%;
+    margin: 10px 0;
+  }
+  

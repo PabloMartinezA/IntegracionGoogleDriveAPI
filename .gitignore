@@ -1,0 +1,17 @@
+# Ignorar dependencias y módulos
+node_modules/
+
+# Ignorar archivos de entorno
+.env
+
+# Ignorar archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar logs y archivos de ejecución local
+npm-debug.log
+yarn-error.log
+
+# Otros archivos temporales o de editor (opcional)
+.idea/
+.vscode/
